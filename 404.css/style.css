@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: solid 2px #ccc;
+}
+
+body > header > h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(red, green, blue) ;
+    background-color: whitesmoke;
+}
+body > header > h2{
+    text-align: center;
+    justify-content: center;
+    color: darkred;
+    background-color: gray;
+
+}
+
+#container1 > ul { 
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#container1 > ul > li > a {
+    color: whitesmoke;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#container1 > ul > li > a:hover {
+    color: rgb(42, 49, 248);
+    transition: 2s;
+}
+body > header > h1{
+    text-align: center;
+}
+
+body > main > h3{
+    text-align: center;
+    color: whitesmoke;
+}
+
+body > main> p{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+footer{
+    text-align: end;
+    color: darkviolet;
+    background-color: whitesmoke;
+}
